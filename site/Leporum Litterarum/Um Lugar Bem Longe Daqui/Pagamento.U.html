@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/pay.css">
+    <link rel="icon" href="assets/img/favicon_io/favicon.ico">
+
+</head>
+<body>
+
+<div class="container">
+
+    <form action="../Inicio/Inicio.html">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">endereço de cobrança</h3>
+
+                <h4 class="valor">Valor do Pedido: R$ 49,99</h2>
+
+                <div class="inputBox">
+                    <span>nome completo :</span>
+                    <input type="text" placeholder="João Gabriel Silva">
+                </div>
+                <div class="inputBox">
+                    <span>email :</span>
+                    <input type="email" placeholder="exemplo@exemplo.com">
+                </div>
+                <div class="inputBox">
+                    <span>endereço :</span>
+                    <input type="text" placeholder="rua - setor - numero">
+                </div>
+                <div class="inputBox">
+                    <span>cidade :</span>
+                    <input type="text" placeholder="posse">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>estado :</span>
+                        <input type="text" placeholder="GO">
+                    </div>
+                    <div class="inputBox">
+                        <span>cep :</span>
+                        <input type="text" placeholder="70070-080">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">pagamento</h3>
+
+                <div class="inputBox">
+                    <span>cartões aceitos :</span>
+                    <img src="./assets/img/card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>nome no cartão :</span>
+                    <input type="text" placeholder="João Gabriel Silva">
+                </div>
+                <div class="inputBox">
+                    <span>numero do cartão de credito :</span>
+                    <input type="text" placeholder="1111-2222-3333-4444">
+                </div>
+                <div class="inputBox">
+                    <span>mês de expiração :</span>
+                    <input type="text" placeholder="fevereiro">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>ano de expiração :</span>
+                        <input type="number" placeholder="2028">
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="text" placeholder="123">
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+
+        <script>
+        function funcao1()
+        {
+        alert("Pedido Realizado com sucesso,mais informações no seu email");
+        }
+        </script>
+
+        <input type="submit" onclick="funcao1()" value="Confirmar pedido" class="submit-btn"/>
+
+        <picture class="voltar">
+            <a href="Um Lugar Bem Longe Daqui.U.html">
+                <img src="assets/img/voltar.png" alt="">
+            </a>
+        </picture>
+
+    </form>
+
+</div>    
+    
+</body>
+</html>

@@ -1,0 +1,248 @@
+/*NavBar*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: #f0fff0;
+}
+
+.menu-nav {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    background-color: #2c2c2c;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 10px 0px 10px #2c2c2c;
+    z-index: 99;
+}
+
+.nav>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li {
+    color: #f0fff0;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+    
+nav ul li:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s;
+    font-weight: bold;
+}
+
+/*Inicio*/
+
+body {
+    background-color: #EDEDED;
+    font-family: 'arial';
+    overflow: hidden;
+}
+
+.conteiner {
+    position: relative;
+    top:55px;
+}
+
+.imagem {
+    background-color: #dfdfdf;
+    width: 40%;
+    position: relative;
+    top:3.85rem;
+    left: 7rem;
+    height: 612px;
+    border-top: 1px solid #7a7a7a;
+    border-bottom: 1px solid #7a7a7a;
+    border-left: 1px solid #7a7a7a;
+    border-radius: 1px;
+}
+
+.txt {
+    position: relative;
+    width: 400px;
+    height: 612px;
+    padding-left: 55px;
+    margin: -554px 0 0 1015px;
+    background-color: #dfdfdf;
+    border-top: 1px solid #7a7a7a;
+    border-right: 1px solid #7a7a7a;
+    border-bottom: 1px solid #7a7a7a;
+    border-radius: 1px;
+}
+
+.Titulo {
+    position: relative;
+    top: 15px;
+    width: 300px;
+}
+
+.rate {
+    position: relative;
+    top: 8px;
+    font-size: 25px;
+    color: #6c63ff;
+}
+
+.preco {
+    font-size: 35px;
+    position: relative;
+    top: 11px;
+}
+
+.cent {
+    position: relative;
+    left: 5.9rem;
+    top: -24px;
+}
+
+.frete {
+    position: relative;
+    top: -2px;
+    color: #00A650;
+    font-size: 18px;
+}
+
+.cor{
+    position: relative;
+    top: 14px;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.icon {
+    position: relative;
+    top: 35px;
+    border-radius: 10%;
+    border-color: #6c63ff;
+    border-style: solid;
+}
+
+.icon:hover {
+    background-color: #d3d3d375;
+    cursor: pointer;
+}
+
+.Estoque {
+    font-weight: bold;
+    position: relative;
+    top: 60px;
+    font-size: 18px;
+}
+
+.qnt {
+    position: relative;
+    top: 80px;
+    font-size: 18px;
+}
+
+.Comprar {
+    position: relative;
+    top: 120px;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    color: #f0fff0;
+    background-color: #637aff;
+    border-style: none;
+}
+
+.Comprar:hover {
+    background-color: #6c63ff;
+}
+
+.vendido {
+    position: relative;
+    top: 140px;
+}
+
+.nome {
+    color: #6c63ff;
+}
+
+.verificado {
+    position: relative;
+    top: 3px;
+}
+.azul {
+    color: #6c63ff;
+}
+
+.voltar {
+    position: relative;
+    top: 1px;
+}
+
+.Devolução {
+    position: relative;
+    top: 150px;
+    color: #727272;
+}
+
+                /*Descrição*/
+
+.descrição {
+    position: relative;
+    margin: -612px auto auto 726px;
+    width: 289px;
+    height: 612px;
+    background-color: #dfdfdf;
+    border-top: 1px solid #7a7a7a;
+    border-bottom: 1px solid #7a7a7a;
+    border-radius: 1px;
+}
+
+.autor {
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+.Editora {
+    position: relative;
+    top: 35px;
+    text-align: center;
+}
+
+.Capa {
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+.sinopse {
+    position: relative;
+    top: 100px;
+    text-align: justify;
+    width: 210px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.back {
+    position: relative;
+    width: 28px;
+    top: -385px;
+    left: 310px;
+}

@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Background Color*/
+
+.link {
+    color: #f0fff0;
+    text-decoration: none;
+}
+
+main {
+    background-image: radial-gradient(#fff, #c7c7c7);
+    box-sizing: content-box;;
+    width: 100%;
+}
+
+main{
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'arial';
+    overflow: hidden;
+}
+
+/*MENU/NAV*/
+
+.menu-nav {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    background-color: #2c2c2c;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 10px 0px 10px #2c2c2c;
+    z-index: 99;
+}
+
+.nav>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo {
+    width: 15%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li {
+    color: #f0fff0;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+    
+nav ul li:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s;
+    font-weight: bold;
+}
+/*main*/
+
+
+.marca{
+    position: relative;
+    left: 120px;
+}
+
+.gmail {
+    position: relative;
+    top: -190px;
+    left: 360px;
+    width: 1px;
+}
+
+.insta {
+    position: relative;
+    top: -182.5px;
+    left: 375px;
+    width: 1px;
+}
+
+.Sobre {
+    position: relative;
+    top: -28rem;
+    left: 45rem;
+    width: 500px;
+}
+
+.titulo {
+    width: 300px;
+}
+
+.somos {
+    position: relative;
+    top: 20px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
